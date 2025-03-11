@@ -1,0 +1,6 @@
+---
+- name: Deploy Linux Battle Royale
+  hosts: all
+  become: yes
+  roles:
+    - linux_battle
